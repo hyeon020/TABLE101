@@ -1,0 +1,121 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 22
+Class-Path: telegrambots-6.5.0.jar telegrambots-meta-6.5.0.jar commons-l
+ ang3-3.12.0.jar jackson-annotations-2.14.0.jar jackson-jaxrs-json-provi
+ der-2.14.0.jar jackson-jaxrs-base-2.14.0.jar jackson-module-jaxb-annota
+ tions-2.14.0.jar jackson-core-2.14.0.jar jakarta.xml.bind-api-2.3.3.jar
+  jackson-databind-2.14.0.jar jersey-hk2-2.35.jar jersey-common-2.35.jar
+  osgi-resource-locator-1.0.3.jar hk2-locator-2.6.1.jar aopalliance-repa
+ ckaged-2.6.1.jar hk2-api-2.6.1.jar hk2-utils-2.6.1.jar javassist-3.25.0
+ -GA.jar jersey-media-json-jackson-2.35.jar jersey-entity-filtering-2.35
+ .jar jersey-container-grizzly2-http-2.35.jar jakarta.inject-2.6.1.jar g
+ rizzly-http-server-2.4.4.jar grizzly-http-2.4.4.jar grizzly-framework-2
+ .4.4.jar jakarta.ws.rs-api-2.1.6.jar jersey-server-2.35.jar jersey-clie
+ nt-2.35.jar jakarta.annotation-api-1.3.5.jar jakarta.validation-api-2.0
+ .2.jar httpclient-4.5.13.jar httpcore-4.4.13.jar commons-logging-1.2.ja
+ r commons-codec-1.11.jar httpmime-4.5.13.jar commons-io-2.11.0.jar slf4
+ j-api-2.0.3.jar mysql-connector-java-8.0.28.jar protobuf-java-3.11.4.ja
+ r org.json-chargebee-1.0.jar emoji-java-5.1.1.jar json-20170516.jar
+Main-Class: src/main/java/dita/App.java
+Extension-List: telegrambots telegrambots-meta commons-lang3 jackson-ann
+ otations jackson-jaxrs-json-provider jackson-jaxrs-base jackson-module-
+ jaxb-annotations jackson-core jakarta.xml.bind-api jackson-databind jer
+ sey-hk2 jersey-common osgi-resource-locator hk2-locator aopalliance-rep
+ ackaged hk2-api hk2-utils javassist jersey-media-json-jackson jersey-en
+ tity-filtering jersey-container-grizzly2-http jakarta.inject grizzly-ht
+ tp-server grizzly-http grizzly-framework jakarta.ws.rs-api jersey-serve
+ r jersey-client jakarta.annotation-api jakarta.validation-api httpclien
+ t httpcore commons-logging commons-codec httpmime commons-io slf4j-api 
+ mysql-connector-java protobuf-java org.json emoji-java json
+junit-Extension-Name: junit
+junit-Implementation-Version: 4.13.2
+hamcrest-core-Extension-Name: hamcrest-core
+hamcrest-core-Implementation-Version: 1.3
+telegrambots-Extension-Name: telegrambots
+telegrambots-Implementation-Version: 6.5.0
+telegrambots-meta-Extension-Name: telegrambots-meta
+telegrambots-meta-Implementation-Version: 6.5.0
+commons-lang3-Extension-Name: commons-lang3
+commons-lang3-Implementation-Version: 3.12.0
+jackson-annotations-Extension-Name: jackson-annotations
+jackson-annotations-Implementation-Version: 2.14.0
+jackson-jaxrs-json-provider-Extension-Name: jackson-jaxrs-json-provider
+jackson-jaxrs-json-provider-Implementation-Version: 2.14.0
+jackson-jaxrs-base-Extension-Name: jackson-jaxrs-base
+jackson-jaxrs-base-Implementation-Version: 2.14.0
+jackson-module-jaxb-annotations-Extension-Name: jackson-module-jaxb-anno
+ tations
+jackson-module-jaxb-annotations-Implementation-Version: 2.14.0
+jackson-core-Extension-Name: jackson-core
+jackson-core-Implementation-Version: 2.14.0
+jakarta_xml_bind-api-Extension-Name: jakarta.xml.bind-api
+jakarta_xml_bind-api-Implementation-Version: 2.3.3
+jackson-databind-Extension-Name: jackson-databind
+jackson-databind-Implementation-Version: 2.14.0
+jersey-hk2-Extension-Name: jersey-hk2
+jersey-hk2-Implementation-Version: 2.35
+jersey-common-Extension-Name: jersey-common
+jersey-common-Implementation-Version: 2.35
+osgi-resource-locator-Extension-Name: osgi-resource-locator
+osgi-resource-locator-Implementation-Version: 1.0.3
+hk2-locator-Extension-Name: hk2-locator
+hk2-locator-Implementation-Version: 2.6.1
+aopalliance-repackaged-Extension-Name: aopalliance-repackaged
+aopalliance-repackaged-Implementation-Version: 2.6.1
+hk2-api-Extension-Name: hk2-api
+hk2-api-Implementation-Version: 2.6.1
+hk2-utils-Extension-Name: hk2-utils
+hk2-utils-Implementation-Version: 2.6.1
+javassist-Extension-Name: javassist
+javassist-Implementation-Version: 3.25.0-GA
+jersey-media-json-jackson-Extension-Name: jersey-media-json-jackson
+jersey-media-json-jackson-Implementation-Version: 2.35
+jersey-entity-filtering-Extension-Name: jersey-entity-filtering
+jersey-entity-filtering-Implementation-Version: 2.35
+jersey-container-grizzly2-http-Extension-Name: jersey-container-grizzly2
+ -http
+jersey-container-grizzly2-http-Implementation-Version: 2.35
+jakarta_inject-Extension-Name: jakarta.inject
+jakarta_inject-Implementation-Version: 2.6.1
+grizzly-http-server-Extension-Name: grizzly-http-server
+grizzly-http-server-Implementation-Version: 2.4.4
+grizzly-http-Extension-Name: grizzly-http
+grizzly-http-Implementation-Version: 2.4.4
+grizzly-framework-Extension-Name: grizzly-framework
+grizzly-framework-Implementation-Version: 2.4.4
+jakarta_ws_rs-api-Extension-Name: jakarta.ws.rs-api
+jakarta_ws_rs-api-Implementation-Version: 2.1.6
+jersey-server-Extension-Name: jersey-server
+jersey-server-Implementation-Version: 2.35
+jersey-client-Extension-Name: jersey-client
+jersey-client-Implementation-Version: 2.35
+jakarta_annotation-api-Extension-Name: jakarta.annotation-api
+jakarta_annotation-api-Implementation-Version: 1.3.5
+jakarta_validation-api-Extension-Name: jakarta.validation-api
+jakarta_validation-api-Implementation-Version: 2.0.2
+httpclient-Extension-Name: httpclient
+httpclient-Implementation-Version: 4.5.13
+httpcore-Extension-Name: httpcore
+httpcore-Implementation-Version: 4.4.13
+commons-logging-Extension-Name: commons-logging
+commons-logging-Implementation-Version: 1.2
+commons-codec-Extension-Name: commons-codec
+commons-codec-Implementation-Version: 1.11
+httpmime-Extension-Name: httpmime
+httpmime-Implementation-Version: 4.5.13
+commons-io-Extension-Name: commons-io
+commons-io-Implementation-Version: 2.11.0
+slf4j-api-Extension-Name: slf4j-api
+slf4j-api-Implementation-Version: 2.0.3
+mysql-connector-java-Extension-Name: mysql-connector-java
+mysql-connector-java-Implementation-Version: 8.0.28
+protobuf-java-Extension-Name: protobuf-java
+protobuf-java-Implementation-Version: 3.11.4
+org_json-Extension-Name: org.json
+org_json-Implementation-Version: chargebee-1.0
+emoji-java-Extension-Name: emoji-java
+emoji-java-Implementation-Version: 5.1.1
+json-Extension-Name: json
+json-Implementation-Version: 20170516
+Created-By: Maven Integration for Eclipse
+
